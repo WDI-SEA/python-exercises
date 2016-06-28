@@ -2,10 +2,18 @@
 
 Let's practice using loops, conditionals, arrays, hashes, and methods in Ruby.
 
-Inside this folder are a few ruby files with exercises written in comments. Fork and clone this repository and complete the exercises.
+##Getting Started
 
-You can run a file using ruby like so:
+* Fork and clone this repository
+* Run `bundle install` to install dependencies
+  * Run `rubocop` to lint your code
+
+##requirements
+
+Inside this folder are a few Ruby files with exercises written in comments. Fork and clone this repository and complete the exercises.
+
+You can run a file using Ruby like so:
 
 ```
-ruby 01loops.rb
+ruby src/01loops.rb
 ```
