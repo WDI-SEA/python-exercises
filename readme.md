@@ -15,7 +15,7 @@ Inside this folder are a few Ruby files with exercises written in comments. Fork
 You can run a file using Ruby like so:
 
 ```
-ruby lib/01loops.rb
+ruby lib/01loop.rb
 ```
 
 ---
