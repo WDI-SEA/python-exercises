@@ -1,21 +1,20 @@
-#Ruby Exercises
+#Python Exercises
 
-Let's practice using loops, conditionals, arrays, hashes, and methods in Ruby.
+Let's practice using loops, conditionals, arrays, hashes, and methods in Python.
 
 ##Getting Started
 
 * Fork and clone this repository
-* Run `bundle install` to install dependencies
-  * Run `rubocop` to lint your code
 
 ##requirements
 
-Inside this folder are a few Ruby files with exercises written in comments. Fork and clone this repository and complete the exercises.
+Inside this folder are a few Python files with exercises written in comments.
+Fork and clone this repository and complete the exercises.
 
-You can run a file using Ruby like so:
+You can run a file using Python like so:
 
 ```
-ruby lib/01loop.rb
+python3 lib/01loop.py
 ```
 
 ---
