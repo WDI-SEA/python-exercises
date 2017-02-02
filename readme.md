@@ -14,7 +14,7 @@ Fork and clone this repository and complete the exercises.
 You can run a file using Python like so:
 
 ```
-python3 lib/01loop.py
+python3 exercises/01loop.py
 ```
 
 ---
