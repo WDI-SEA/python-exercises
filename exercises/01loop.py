@@ -4,6 +4,10 @@
 #
 # Example method call:
 #
+# p_times('Hello there', 1)
+#
+# > Hello there
+#
 # p_times('Hello there', 3)
 #
 # > Hello there
