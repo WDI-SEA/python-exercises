@@ -13,3 +13,16 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+
+def p_times(input_string, num_times=1):
+    if num_times is None or num_times <= 0:
+        print('None or 0')
+        num_times = 1
+
+    for i in range (0, num_times):
+        print(input_string)
+
+
+# Call the function
+p_times('hi')
