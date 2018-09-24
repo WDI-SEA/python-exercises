@@ -1,12 +1,12 @@
-#Python Exercises
+# Python Exercises
 
 Let's practice using loops, conditionals, arrays, hashes, and methods in Python.
 
-##Getting Started
+## Getting Started
 
 * Fork and clone this repository
 
-##requirements
+## Requirements
 
 Inside this folder are a few Python files with exercises written in comments.
 Fork and clone this repository and complete the exercises.
