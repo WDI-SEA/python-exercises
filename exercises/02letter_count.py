@@ -31,3 +31,14 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 2}
+
+def letter_count(word):
+    letters = {}
+    for l in word:
+        if l in letters:
+            letters[l] += 1
+        else:
+            letters[l] = 1
+    print(letters)
+
+letter_count('banana')
