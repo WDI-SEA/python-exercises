@@ -20,3 +20,9 @@ contacts = {
   'Lenny': '444-444-4444',
   'Daniel': '777-777-7777'
 }
+
+def print_contacts(obj):
+	for key in obj:
+		print(key, "has a phone number of", obj[key])
+
+print_contacts(contacts)	

@@ -10,3 +10,15 @@
 # multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
+
+test_list = [1, 5, 3, 6, 8]
+
+
+def multiply_by(lst, multiplier):
+  result_list = []
+  for num in lst:
+    result_list.append(num * multiplier)
+  return result_list  
+
+
+print(multiply_by(test_list, 2))

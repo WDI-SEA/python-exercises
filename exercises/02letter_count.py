@@ -30,4 +30,22 @@
 #
 # letter_count('banana')
 #
-# > {'a': 3, 'b': 2}
+# > {'a': 3, 'b': 1, 'n': 2 }
+
+
+#########################
+
+# Brandi: No idea what's going on with this task, and the instructions aren't helping
+# I will try again and re-submit my pull request if I get some study time between my
+# commute and class start. Augh!
+
+dd = {}
+
+def letter_count(my_string):
+	temp_string = my_string
+		for letter in my_string:
+		dd.update(letter: 1)
+		print(dd)
+
+letter_count("abracadabra")
+
