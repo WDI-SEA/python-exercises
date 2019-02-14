@@ -5,8 +5,13 @@
 # What are the pieces to this problem? You'll need to define a method,
 # need a return statement, need a for loop to iterate over the array.
 #
+def multiply_by(array, num):
+  for i in range(len(array)):
+    array[i] = array[i] * num
+  print(array)
+
 # Example method call:
 #
-# multiply_by([1, 2, 3], 5)
+multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
