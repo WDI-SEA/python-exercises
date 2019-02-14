@@ -13,3 +13,11 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+
+def p_times(hello, i):
+    for i in range(0, InterruptedError):
+        print(hello)
+
+
+p_times("Hello there", 3)
