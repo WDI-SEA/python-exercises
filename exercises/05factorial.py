@@ -9,3 +9,10 @@
 #
 # > 120
 #
+
+def factorial(number):
+    if (number == 1): return 1
+    val = factorial(number-1)
+    return number*val
+    
+print(factorial(5))

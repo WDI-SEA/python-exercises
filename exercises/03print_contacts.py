@@ -20,3 +20,6 @@ contacts = {
   'Lenny': '444-444-4444',
   'Daniel': '777-777-7777'
 }
+
+for i in range(0, len(contacts)):
+  print(f'{list(contacts.keys())[i]} has a phone number of {list(contacts.values())[i]}')
