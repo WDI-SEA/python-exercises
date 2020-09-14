@@ -9,3 +9,14 @@
 #
 # > 120
 #
+
+def factorial(n):
+  factorial_result = 0
+  for number in range(1, n + 1):
+    if (factorial_result == 0):
+      factorial_result = number
+    else:
+      factorial_result *= number
+  return factorial_result
+
+print(factorial(5))
