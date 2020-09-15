@@ -16,6 +16,6 @@ def multiply_by(list, num):
     for i in range(len(list)):
         temp = list[i]*num
         newList.append(temp)
-    print(newList)
+    return newList
 
-multiply_by([1, 2, 3], 5)
+print(multiply_by([1, 2, 3], 5))
