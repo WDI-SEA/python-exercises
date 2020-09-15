@@ -20,3 +20,9 @@ contacts = {
   'Lenny': '444-444-4444',
   'Daniel': '777-777-7777'
 }
+
+def print_contacts(contacts):
+  for pair in contacts.items():
+    print(f"{pair[0]} has a phone number of {pair[1]}")
+
+print_contacts(contacts)
