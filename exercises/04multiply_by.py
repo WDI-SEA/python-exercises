@@ -10,3 +10,11 @@
 # multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
+
+def multiply_by(listONumbers, number):
+    result = listONumbers
+    for i in range(0, len(listONumbers)):
+        result[i] = listONumbers[i] * number
+    return result
+
+print(multiply_by([1, 2, 3], 5))
