@@ -31,3 +31,21 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 3}
+
+
+class Count: 
+    def __init__(self, string):
+        self.string = string
+        self.dictionary = {}
+    
+    def count_letters(self):
+        for i in range(len(self.string)):
+            if self.string[i] in self.dictionary:
+                self.dictionary[self.string[i]] +=1
+            else:
+                self.dictionary[self.string[i]] = 1
+            
+        print(self.dictionary)
+
+book = Counts('asynchronous')
+book.count_letters
