@@ -13,3 +13,7 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+statement = input()
+num = int(input())
+print(statement * num)
