@@ -12,6 +12,6 @@
 import math
 
 def factorial(n):
-    print(math.factorial(n))
+    return math.factorial(n) 
 
-factorial(5)
+print(factorial(5))
