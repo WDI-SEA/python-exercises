@@ -18,8 +18,8 @@
 def multiply_by(arr, num):
     newList = []
 
-    for i in arr:   
-        newList.append(i * num) 
+    for numbers in arr:   
+        newList.append(numbers * num) 
     print(newList)
 
 multiply_by([1,2,3,4], 5)
