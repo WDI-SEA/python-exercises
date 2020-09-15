@@ -22,7 +22,7 @@ contacts = {
 }
 
 def print_contacts(dictOContacts):
-  for key in contacts:
-    print('{0} has a phone number of {1}'.format(key, dictOContacts[i]))
+  for key in dictOContacts:
+    print(f'{key} has a phone number of {dictOContacts[key]}')
 
 print_contacts(contacts)
