@@ -20,3 +20,6 @@ contacts = {
   'Lenny': '444-444-4444',
   'Daniel': '777-777-7777'
 }
+
+for key in contacts:
+  print(key, "has a phone number of", contacts[key]) 

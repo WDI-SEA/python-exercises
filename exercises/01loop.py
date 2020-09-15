@@ -13,3 +13,12 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def P_times():
+    pStr = input("word")
+    pNum = input("number")
+    num = int(pNum)
+    return(pStr*num)
+
+print(P_times())
+ 
