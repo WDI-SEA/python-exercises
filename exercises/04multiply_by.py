@@ -7,13 +7,14 @@
 #
 
 def multiply_by(list, num):
+  for value in list:
+    print(value * num)
 
-
-
+multiply_by([1, 2, 3], 2)
 
 # Example method call:
 #
-# multiply_by([1, 2, 3], 5)
+multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
 
