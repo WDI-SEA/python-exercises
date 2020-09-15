@@ -4,6 +4,19 @@
 # You can iterate over a string one letter at a time using
 # a for loop.
 #
+
+def letter_count(str):
+  dd = {}
+  for i in str:
+    if i in dd:
+      dd[i] += 1
+    else:
+      dd[i] = 1
+  print(dd)
+
+letter_count("banana")
+
+
 # for letter in "alpha":
 #   print(letter)
 #
@@ -26,6 +39,13 @@
 # d2["foo"]
 # > KeyError: 'foo'
 #
+
+
+
+
+
+
+
 # Example method call:
 #
 # letter_count('banana')
