@@ -31,3 +31,14 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 3}
+
+def letter_count(word):
+    chars = {}
+    for i in range(0, len(word)):
+        if (word[i] in chars):
+            chars[word[i]] += 1
+        else:
+            chars[word[i]] = 1
+    print(chars)
+
+letter_count("potato")

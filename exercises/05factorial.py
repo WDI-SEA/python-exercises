@@ -9,3 +9,11 @@
 #
 # > 120
 #
+
+def factorial(num):
+    total = 1
+    for i in range(0, num):
+        total *= (num - i)
+    print(total)
+
+factorial(6)
