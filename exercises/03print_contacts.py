@@ -20,3 +20,9 @@ contacts = {
   'Lenny': '444-444-4444',
   'Daniel': '777-777-7777'
 }
+
+def print_contacts(passed_contacts):
+  for contact, number in passed_contacts.items():
+    print(f'{contact} has a phone number of {number}')
+
+print_contacts(contacts)
