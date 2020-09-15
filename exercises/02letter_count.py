@@ -44,3 +44,15 @@ res = {}
 for keys in test_str:
     res[keys] = res.get(keys,0) +1
     print("Count of all characters in General Assembly is : \n" + str(res) )
+
+string = input("type a message:")
+dd = {}
+for i in string:
+    if i in dd:
+        dd[i] +=1
+    else:
+        dd[i] = 1
+print(dd)
+
+# def letter_string(str):
+#     for i in range(len(str)):

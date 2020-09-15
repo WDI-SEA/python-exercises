@@ -26,3 +26,7 @@ def print_contacts(value):
     print("{}".format(value[key]))
 
 print_contacts(contacts)
+
+# def print_contacts(dictionary):
+#   for key in contacts:
+#     print(key + dictionary[key])
