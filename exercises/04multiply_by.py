@@ -4,9 +4,12 @@
 # You'll want to apply your fundamental programming knowledge here.
 # What are the pieces to this problem? You'll need to define a method,
 # need a return statement, need a for loop to iterate over the array.
-#
-# Example method call:
-#
-# multiply_by([1, 2, 3], 5)
-#
-# > [5, 10, 15]
+
+
+my_list = [1, 2, 3, 4, 5]
+my_new_list = []
+my_int = 5
+for i in my_list:
+    my_new_list.append(i * my_int)
+
+print(my_new_list)

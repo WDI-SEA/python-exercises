@@ -13,3 +13,10 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def p_times(str, num):
+    for i in range(0,num):
+        print(str)
+        i+= 1
+
+p_times("problem 1", 3)
