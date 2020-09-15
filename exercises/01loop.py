@@ -3,7 +3,6 @@
 # to the console.
 
 def p_times(statement, num):
-  range
   for i in range(num):
     print(statement)
 

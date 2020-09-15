@@ -5,8 +5,16 @@
 # What are the pieces to this problem? You'll need to define a method,
 # need a return statement, need a for loop to iterate over the array.
 #
+
+def multiply_by(list, num):
+
+
+
+
 # Example method call:
 #
 # multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
+
+# def multiply_by(list, num):
