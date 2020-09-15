@@ -10,12 +10,20 @@ for letter in "alpha":
 # Create a dictionary with `dd = {}`. Assign values with `dd["foo"] = 1`.
 # Check to see if a dictionary has a key using the `in` operator.
 #
-dd = {}
-dd["foo"] = 1
-dd["foo"] += 1
-if "foo" in dd:
-  print(dd["foo"])
-
+# dd = {}
+# dd["foo"] = 1
+# dd["foo"] += 1
+# if "foo" in dd:
+#   print(dd["foo"])
+test_str = "Giant Cats"
+all_freq = {} 
+  
+for i in test_str: 
+    if i in all_freq: 
+        all_freq[i] += 1
+    else: 
+        all_freq[i] = 1
+print(str(all_freq))
 # Careful. Python requires that you insert a key into a dictionary
 # before you try to modify it's value. If you try to access a dictionary
 # at a key that hasn't been added you'll get an error and the program will
