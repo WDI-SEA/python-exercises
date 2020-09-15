@@ -13,3 +13,11 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def p_times(statement, num):
+    while num > 0:
+        print(statement)
+        num -= 1
+
+
+p_times('Hello there', 8)
