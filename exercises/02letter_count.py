@@ -31,3 +31,14 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 3}
+
+string = input("Type a string: ")
+dd = {}
+
+for i in string:
+    if i in dd:
+        dd[i] += 1
+    else:
+        dd[i] = 1
+
+print(dd)

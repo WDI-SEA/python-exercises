@@ -13,3 +13,10 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+
+statement = input("Type a statement: ")
+num = int(input("Now type a number of times you'd like me to repeat this statement: "))
+
+for i in range(num):
+    print(statement)

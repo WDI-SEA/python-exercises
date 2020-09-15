@@ -20,3 +20,16 @@ contacts = {
   'Lenny': '444-444-4444',
   'Daniel': '777-777-7777'
 }
+
+# def print_contacts(key, val):
+#   for i in contacts:
+#     print(f"{key} has a phone number of {val}")
+
+# print_contacts(contacts)
+
+
+contacts["Brian"]
+
+def print_contacts(dd):
+  for key in dd:
+    print(f"${key} has a phone number of ${dd[key]}")
