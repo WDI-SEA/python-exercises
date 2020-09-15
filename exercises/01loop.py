@@ -13,3 +13,9 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def p_times(statement, num):
+    for i in range(num):
+        print(f"{i+1}. {statement}") # for clearification add numbers in front of the statement.
+
+p_times(f'Hello there', 10)
