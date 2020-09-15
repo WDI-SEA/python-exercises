@@ -10,3 +10,17 @@
 # multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
+
+# when you loop through a range, you are looping through every number 0 and up 
+# when you want to loop through a list, you have to name the list instead of range
+
+
+def multiply_by(arr, num):
+    newList = []
+
+    for i in arr:   
+        newList.append(i * num) 
+    print(newList)
+
+multiply_by([1,2,3,4], 5);
+
