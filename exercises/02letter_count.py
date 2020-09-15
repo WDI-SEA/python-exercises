@@ -32,16 +32,35 @@
 #
 # > {'a': 3, 'b': 1, 'n': 3}
 
-def letter_count(user_string):
-  dd = {}
-  for i in range(len(user_string)):
-    print(user_string[i])
+# def letter_count(user_string):
+#   dd = {}
+#   for i in range(len(user_string)):
+#     print(user_string[i])
 
-    if (user_string[i] not in dd and user_string[i] != ' '):
-      dd[user_string[i]] = 1
-    elif (user_string[i] in dd):
-      dd[user_string[i]] += 1
+#     if (user_string[i] not in dd and user_string[i] != ' '):
+#       dd[user_string[i]] = 1
 
-  print(dd)
+#     elif (user_string[i] in dd):
+#       dd[user_string[i]] += 1
 
-letter_count('banana')
+#   print(dd)
+
+# letter_count('banana')
+
+class Thesaurus:
+  def __init__(self, string):
+    self.string = string
+    self.dictionary = {}
+
+  # when you pass in self, you have access
+  # to self.string and self.dictionary
+  def count_letters(self):
+    for i in range(len(self.string)):
+      if (self.string[i] in self.dictionary):
+        self.dictionary[self.string[i]] += 1
+      else:
+        self.dictionary[self.string[i]] = 1
+    print(self.dictionary)
+
+book = Thesaurus('asyncronous')
+book.count_letters()

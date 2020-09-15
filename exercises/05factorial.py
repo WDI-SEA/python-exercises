@@ -12,7 +12,7 @@
 
 def factorial(num):
   result = 0
-  # invoke reversed() to reverse the range (fun and new!)
+  # invoke reversed() to reverse the range (fun!)
   for i in reversed(range(1, num + 1)):
     # account for fencepost of first num and add it directly to result
     if (i == num):
@@ -21,6 +21,5 @@ def factorial(num):
     else:
       result *= i
   print(result)
-
 
 factorial(10)
