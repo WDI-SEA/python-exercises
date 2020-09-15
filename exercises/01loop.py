@@ -13,3 +13,12 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+num = int(input("Enter number of times: \n"))
+statement = str(input("Enter a statement: \n"))
+
+def p_times(statement, num):
+    for i in range(num):
+        print(f"{statement}")
+
+p_times(statement, num)
