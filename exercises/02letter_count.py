@@ -31,3 +31,16 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 3}
+
+def letter_count(str):
+    tempObj = {}
+    for eachletter in str:
+        keys = tempObj.keys()
+        if eachletter in keys:
+            tempObj[eachletter] += 1
+        else:
+            tempObj[eachletter] = 1
+    return tempObj
+
+
+print(letter_count('banana'))
