@@ -5,10 +5,14 @@
 # Example method call:
 #
 # p_times('Hello there', 1)
+def p_times(statement, num):
+    for i in range(num):
+        print(f'{statement}')
+
 #
 # > Hello there
 #
-# p_times('Hello there', 3)
+p_times('Hello there', 3)
 #
 # > Hello there
 # > Hello there
