@@ -5,7 +5,11 @@
 # Example method call:
 #
 # p_times('Hello there', 1)
-#
+
+name = str(input("Enter a name: "))
+num = int(input('Enter a number: '))
+p_times = (name + '\n') * num
+print(p_times)
 # > Hello there
 #
 # p_times('Hello there', 3)

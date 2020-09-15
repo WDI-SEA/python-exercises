@@ -4,24 +4,24 @@
 # You can iterate over a string one letter at a time using
 # a for loop.
 #
-# for letter in "alpha":
-#   print(letter)
+for letter in "alpha":
+  print(letter)
 #
 # Create a dictionary with `dd = {}`. Assign values with `dd["foo"] = 1`.
 # Check to see if a dictionary has a key using the `in` operator.
 #
-# dd = {}
-# dd["foo"] = 1
-# dd["foo"] += 1
-# if "foo" in dd:
-#   print(dd["foo"])
-#
+dd = {}
+dd["foo"] = 1
+dd["foo"] += 1
+if "foo" in dd:
+  print(dd["foo"])
+
 # Careful. Python requires that you insert a key into a dictionary
 # before you try to modify it's value. If you try to access a dictionary
 # at a key that hasn't been added you'll get an error and the program will
 # crash. Remember to use an if statement to see if a key is "in" a dictionary
 # before you try to read it!
-#
+
 # d2 = {}
 # d2["foo"]
 # > KeyError: 'foo'
@@ -31,3 +31,8 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 3}
+test_str = "General Assembly"
+res = {}
+for keys in test_str:
+    res[keys] = res.get(keys,0) +1
+    print("Count of all characters in General Assembly is : \n" + str(res) )
