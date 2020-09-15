@@ -22,5 +22,5 @@ def multiply_by(arr, num):
         newList.append(i * num) 
     print(newList)
 
-multiply_by([1,2,3,4], 5);
+multiply_by([1,2,3,4], 5)
 

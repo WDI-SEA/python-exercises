@@ -9,3 +9,9 @@
 #
 # > 120
 #
+import math
+
+def factorial(n):
+    print(math.factorial(n))
+
+factorial(5)
