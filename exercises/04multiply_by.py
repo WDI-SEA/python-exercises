@@ -10,3 +10,13 @@
 # multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
+
+
+def multiply_by(lst1, numb1):
+    lst2 = []
+    for i in range(len(lst1)):
+        lst2.append(lst1[i]*numb1)
+    print(lst2)
+
+multiply_by([1, 2, 3], 5)
+  

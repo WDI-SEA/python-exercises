@@ -31,3 +31,16 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 3}
+
+def letter_count(str):
+  
+    dd = {}
+    for i in range(0, len(str)):
+        if str[i] in dd:
+            dd[str[i]] +=1
+        else :
+            dd[str[i]] =1
+    print("dd",dd)
+
+    
+letter_count('banana')

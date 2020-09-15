@@ -9,3 +9,12 @@
 #
 # > 120
 #
+
+def factorial(n):
+    numb1 = 1
+    while ( n>=1 ):
+        numb1 = numb1 * n
+        n = n-1
+    print(numb1)
+
+factorial(5)
