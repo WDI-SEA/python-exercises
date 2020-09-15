@@ -23,6 +23,12 @@ contacts = {
 
 def print_contacts(contacts):
   for pair in contacts.items():
+    # print(pair)
     print(f"{pair[0]} has a phone number of {pair[1]}")
+
+
+# def print_contacts(contacts):
+#   for key in contacts:
+#     print(f"{key} has a phone number of {contacts[key]}")
 
 print_contacts(contacts)
