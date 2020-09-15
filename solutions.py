@@ -50,6 +50,18 @@ def multiply_by(array, num):
 
 multiply_by(my_array, 2)
 
+# Alternate way to do problem 4
+
+my_array2 = [2, 14, 3]
+my_new_array = []
+
+def multiply_by2(array, num):
+    for number in array:
+       my_new_array.append(number * num)
+       
+multiply_by2(my_array, 2)
+print(my_new_array)
+
 # Question 5, Factorial
 
 def factory(n):
