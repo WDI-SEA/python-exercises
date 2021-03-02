@@ -13,3 +13,14 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+
+# a_string = 'hello'
+# for line in range(3):
+#     result = a_string * 2
+#     print(result)
+
+statement='hello'
+num = 2
+for line in range(num):
+    print(statement)
