@@ -1,11 +1,11 @@
-# Write a method called `print_contacts` that takes a
+# Write a function called `print_contacts` that takes a
 # dictionary of key-value pairs for names and phone numbers,
 # then outputs the `name` with the contact info.
 #
 # Try iterating over a dictionary with a for loop and printing
 # out what values come back.
 #
-# Example method call:
+# Example function call:
 #
 # print_contacts(contacts)
 #

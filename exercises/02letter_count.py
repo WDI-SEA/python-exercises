@@ -1,4 +1,4 @@
-# Write a method called `letter_count` to count the letter
+# Write a function called `letter_count` to count the letter
 # occurrence in a string. Use a dictionary.
 #
 # You can iterate over a string one letter at a time using
@@ -26,7 +26,7 @@
 # d2["foo"]
 # > KeyError: 'foo'
 #
-# Example method call:
+# Example function call:
 #
 # letter_count('banana')
 #
