@@ -9,3 +9,18 @@
 #
 # > 120
 #
+
+def factorial(num: int) -> int:
+  # start the running total at 1 
+  product = 1
+  # loop in range of 1 to number + 1
+  for i in range(1, num + 1):
+    # set the product to be itself multiplied by i
+    product *= i
+  
+  # return the product after looping
+  return product
+
+solution = factorial(5)
+
+print(solution)

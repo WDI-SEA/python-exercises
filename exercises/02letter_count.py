@@ -31,3 +31,24 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 3}
+
+def letter_count(string: str) -> dict:
+  # dict of letter counts
+  dd = {}
+
+  # iterate over the string
+  for letter in string:
+    # check if the letter is in the dictionary
+    if letter not in dd:
+      dd[letter] = 1
+    else:
+      dd[letter] += 1 
+  
+  # return the dictionary full of letter counts
+  return dd
+
+solution = letter_count('banana')
+
+print(solution)
+
+
