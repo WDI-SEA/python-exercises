@@ -21,7 +21,7 @@ contacts = {
   'Daniel': '777-777-7777'
 }
 
-def print_contacts(contacts: dict) -> None:
+def print_contacts(contacts):
   # loop the contacts
   for name in contacts:
     # format the keys and values into a string

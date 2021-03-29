@@ -11,7 +11,7 @@
 #
 # > [5, 10, 15]
 
-def multiply_by(li: list, num: int) -> list:
+def multiply_by(li, num):
   # iterate over the range of the length of the list
   for i in range(len(li)):
     # assign each element of the list to be itself multiplied by num

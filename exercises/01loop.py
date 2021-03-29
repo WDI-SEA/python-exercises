@@ -15,7 +15,7 @@
 # > Hello there
 
 
-def p_times(statement: str, num: int) -> None:
+def p_times(statement, num):
   for _ in range(num):
     print(statement)
 

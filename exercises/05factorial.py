@@ -10,7 +10,7 @@
 # > 120
 #
 
-def factorial(num: int) -> int:
+def factorial(num):
   # start the running total at 1 
   product = 1
   # loop in range of 1 to number + 1

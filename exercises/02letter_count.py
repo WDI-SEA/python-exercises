@@ -32,7 +32,7 @@
 #
 # > {'a': 3, 'b': 1, 'n': 3}
 
-def letter_count(string: str) -> dict:
+def letter_count(string):
   # dict of letter counts
   dd = {}
 
