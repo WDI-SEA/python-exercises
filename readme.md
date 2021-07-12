@@ -1,6 +1,6 @@
 # Python Exercises
 
-Let's practice using loops, conditionals, arrays, hashes, and methods in Python.
+Let's practice using loops, conditionals, arrays, dictionaries, and functions in Python.
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ Fork and clone this repository and complete the exercises.
 
 You can run a file using Python like so:
 
-```
+```bash
 python3 exercises/01loop.py
 ```
 
