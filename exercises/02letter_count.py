@@ -30,7 +30,7 @@
 #
 # letter_count('banana')
 #
-# > {'a': 3, 'b': 1, 'n': 3}
+# > {'a': 3, 'b': 1, 'n': 2}
 
 def letter_count(string):
   # dict of letter counts
