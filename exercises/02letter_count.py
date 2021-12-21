@@ -10,11 +10,6 @@
 # Create a dictionary with `dd = {}`. Assign values with `dd["foo"] = 1`.
 # Check to see if a dictionary has a key using the `in` operator.
 #
-# dd = {}
-# dd["foo"] = 1
-# dd["foo"] += 1
-# if "foo" in dd:
-#   print(dd["foo"])
 #
 # Careful. Python requires that you insert a key into a dictionary
 # before you try to modify it's value. If you try to access a dictionary
