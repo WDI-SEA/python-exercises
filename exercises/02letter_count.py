@@ -26,3 +26,30 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 2}
+
+def letter_count(string):
+    dd = {}
+    # loop over string
+    for taco in string:
+        # if the taco is in our dict, we want to increment that value
+        if taco in dd:
+            dd[taco] += 1
+        # if the taco is not in our dict we want to add it to the dict 
+        # with a value of 1
+        else:
+            dd[taco] = 1
+    
+    return dd
+
+string = 'taco'
+
+for char in string:
+    print(char)
+
+for i in range(len(string)):
+    print(string[i])
+
+for i, char in enumerate(string):
+    print(i, char)
+
+print(letter_count('banana'))

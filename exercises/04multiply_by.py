@@ -10,3 +10,16 @@
 # multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
+
+def multiply_by(li, num):
+    # iterate the list in a way that allows us to mutate the list
+    # for i, list_num in enumerate(li):
+    #     li[i] = list_num * num
+    
+    # for i in range(len(li)):
+    #     li[i] *= num
+    # list comprehension -- returns a new list
+    # [return expression for varaible in iterable (if expression)]
+    return [list_num * num for list_num in li]
+
+print(multiply_by([1, 2, 3], 5))
