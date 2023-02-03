@@ -1,5 +1,5 @@
-# Write a function called `letter_count` to count the letter
-# occurrence in a string. Use a dictionary.
+# Write a function called `letter_count` to count the occurances of each letter
+# in a string. Use a dictionary.
 #
 # You can iterate over a string one letter at a time using
 # a for loop.
