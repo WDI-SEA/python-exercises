@@ -26,3 +26,18 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 2}
+
+def letter_count(word):
+    dd = {}
+    # iterate over the word
+    for char in word:
+        # if the current char is found in the dictionary, increment it's value
+        if char in dd:
+            dd[char] = dd[char] + 1
+        # otherwise add it with a value of one
+        else:
+            dd[char] = 1
+    
+    return dd
+
+print(letter_count('beta'))

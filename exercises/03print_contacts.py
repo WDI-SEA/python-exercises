@@ -20,3 +20,10 @@ contacts = {
   'Lenny': '444-444-4444',
   'Daniel': '777-777-7777'
 }
+
+def print_contacts(dictionary):
+    for name in dictionary:
+        print(f"{name} has a phone number of {dictionary[name]}")
+
+
+print_contacts(contacts)

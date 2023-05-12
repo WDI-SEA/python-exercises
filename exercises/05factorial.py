@@ -9,3 +9,15 @@
 #
 # > 120
 #
+
+def factorial(num):
+    # a running total of the factorial
+    product = 1
+    # loop up to num (including num) and multiply by procdut
+    for i in range(1, num + 1):
+        product *= i
+    
+    return product
+    hello = 10
+
+print(factorial(5))
